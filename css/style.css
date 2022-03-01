@@ -1,8 +1,11 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 header {
+    background-color: white;
     width: auto;
     height: 80px;
 }
@@ -17,23 +20,25 @@ header {
     margin-bottom: 30px;
 }
 
+body {
+    background-color: rgb(243, 243, 243);
+}
+
 main {
-    background-color: lightgray;
-    background: cover;
+    width: 80%;
+    margin: 0 auto;
 }
 
 nav  {
-    margin: 30px 100px 0px;
-    padding: 30px 20px 10px;
-    border-bottom: 2px solid lightgrey;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    padding: 30px 20px;
     background-color: white;
     
 }
 section {
+    padding: 20px;
     background-color: white;
-    margin-right: 100px;
-    margin-left: 100px;
-    border-top: 30px;
 }
 
 .button1 {
@@ -59,14 +64,25 @@ ul {
     text-align: left;
 }
 
+li {
+    margin: 10px 0;
+}
+
 .first-ul {
     font-size: 18px;
 }
 
-span.check {
+.check {
     color: green;
     padding: 3px;
-    border: 1px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.deny {
+    color: red;
+    padding: 3px;
+    border: 1px solid;
     border-radius: 50%;
 }
 
