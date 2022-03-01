@@ -19,13 +19,21 @@ header {
 
 main {
     background-color: lightgray;
+    background: cover;
 }
 
 nav  {
-    margin: 30px 100px 5px;
+    margin: 30px 100px 0px;
     padding: 30px 20px 10px;
     border-bottom: 2px solid lightgrey;
+    background-color: white;
     
+}
+section {
+    background-color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-top: 20px;
 }
 
 .button1 {
@@ -44,4 +52,28 @@ nav  {
     border-color: lightgray;
     color: grey;
     font-size: 13px;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+.first-ul {
+    font-size: 18px;
+}
+
+.check {
+    color: green;
+    padding: 3px;
+    border: 1px;
+}
+
+.editorial {
+    background-color: lightskyblue;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: lightskyblue;
+    color: white;
+    font-size:13px;
 }
