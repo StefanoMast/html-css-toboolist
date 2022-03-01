@@ -1,0 +1,47 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: auto;
+    height: 80px;
+}
+
+#Logo {
+    width: 65px;
+    height: 65px;
+}
+
+.logo-text {
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+main {
+    background-color: lightgray;
+}
+
+nav  {
+    margin: 30px 100px 5px;
+    padding: 30px 20px 10px;
+    border-bottom: 2px solid lightgrey;
+    
+}
+
+.button1 {
+    background-color: lightskyblue;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: lightskyblue;
+    color: white;
+    font-size:13px;
+}
+
+.button2 {
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: lightgray;
+    color: grey;
+    font-size: 13px;
+}
